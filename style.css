@@ -1,0 +1,38 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background: linear-gradient(#CCFFE5,#589898,#156f41);
+     /* display: flex; */
+     /* align-items: center; */
+      
+     height: 100vh;
+}
+h1{
+     text-align: center;
+     margin-top: 80px;
+}
+.wrap{
+     text-align: center;
+     margin-top: 160px;
+}
+h2{
+     font-family: inherit;
+     color: rgb(45, 75, 84);
+}
+.buttom{
+     border: none;
+     outline: none;
+     margin-top: 50px;
+     padding: 10px 40px;
+     border-radius: 5px;
+     color: aliceblue;
+     background: rgb(56, 39, 36);
+     transition: 1s ease;
+}
+.buttom:hover{
+     background: transparent;
+     border: 2px solid gray;
+}
